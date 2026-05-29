@@ -3,10 +3,10 @@ from netscanner import ping_scan
 
 app = Flask(__name__)
 
-app.secret_key = 'SWVA2026!'
+app.secret_key = 'enter-secret-key-here'
 
 USERS = {
-    "admin": "just4IT2no"
+    "username": "password"
 }
 
 
